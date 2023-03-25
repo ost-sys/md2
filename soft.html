@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Официальный сайт владельца канала Windows Tester">
+    <link rel="shortcut icon" href="assets/image/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/light.css" media="(prefers-color-scheme: light)">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/dark.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.cdnfonts.com/css/google-sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/google-sans');
+    </style>
+    <script>  
+        setInterval(function () {
+            var now = new Date();
+            var clock = document.getElementById("clock");
+            clock.innerHTML = now.toLocaleTimeString();
+        }, 1000);
+    </script>
+    <title>Soft (Former section "Programs")</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="page-name">Soft (Former section "Programs")</div>
+        <div class="navbar__wrap">
+            <div class="hamb">
+                <div class="hamb__field" id="hamb">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+                </div>
+            </div>
+            <ul class="menu" id="menu">
+                <li><a href="index.html" title="Home page" class="material-symbols-sharp">home<span>​⠀Home</span></a></li>
+                <li><a href="changelog.html" title="There are innovations here!" class="material-symbols-sharp">edit_document<span>​⠀Changelog</span></a></li>
+                <li><a href="soft.html" title="Programs and more" class="material-symbols-sharp active">computer<span>​⠀Soft</span></a></li>
+                <li><a href="about.html" title="About project" class="material-symbols-sharp">account_circle<span>​⠀About project</span></a></li>
+                <li><a href="socials.html" title="My Socials" class="material-symbols-sharp">link<span>​⠀Socials</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="popup" id="popup"></div>
+    <script src="assets/js/nav.js"></script>
+    <div class="header">
+        <div class="font">
+            <h3>Choose a section</h3>
+            <div class="separator"></div>
+            <div class="header-in-header">
+                <div class="grid-about">
+                    <div class="soft-programm-win" onclick="document.location='soft-windows.html'">
+                        <div class="about-text" style="color: #fff; display: flex">Programs (Windows)</div>
+                        <p style="color: #fff;">Stores Programs for Windows</p>
+                        <p style="color: #fff;">Programs do not contain viruses! Official sources!</p>
+                        <a href="soft-windows.html"><button style="width: 100%">Go to</button></a>
+                    </div>
+                    <div class="soft-programm-android" onclick="document.location='android.html'">
+                        <div class="about-text" style="color: #fff; display: flex">Programs (Android)</div>
+                        <p style="color: #fff;">Stores Android Programs</p>
+                        <p style="color: #fff;">Programs do not contain viruses! Official sources!</p>
+                        <a href="android.html"><button style="width: 100%">Go to</button></a>
+                    </div>
+                    <div class="soft-magisk" onclick="document.location='magisk.html'">
+                        <div class="about-text" style="color: #fff; display: flex">Magisk modules</div>
+                        <p style="color: #fff;">Useful modules for Magisk that can make your phone easier to use (And they can change something)</p>
+                        <p style="color: #fff;">Modules do not contain viruses! Official sources!</p>
+                        <a href="magisk.html"><button style="width: 100%;">Go to</button></a>
+                    </div>
+                    <div class="soft-themes" onclick="document.location='themes.html'">
+                        <div class="about-text" style="color: #fff; display: flex">Customization</div>
+                        <p style="color: #fff;">Themes, wallpapers, music and so on can be found here</p>
+                        <p style="color: #fff;">Take a look, maybe you will find new beautiful wallpapers</p>
+                        <a href="themes.html"><button style="width: 100%;">Go to</button></a>
+                    </div>
+                    <div class="soft-key" onclick="document.location='keys.html'">
+                        <div class="about-text" style="color: #fff; display: flex">Product key</div>
+                        <p style="color: #fff;">Activation keys for different versions of Windows</p>
+                        <p style="color: #fff;">Also contains instructions for activation without activators and other nonsense</p>
+                        <a href="keys.html"><button style="width: 100%;">Go to</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="separator"></div>
+        </div>
+    </div>
+</body>
+<footer style="text-align: center;">
+    <div class="font" style="padding: 0px; font-size: 16px;">
+        <script src="assets/js/year_en.js"></script><br><br>
+        Current time: <span id="clock" class="time"></span><br><br>
+        Time before my birthday: <span id="demo" class="time"></span><br><br>
+        <script src="assets/js/timer.js"></script>
+        <script src="assets/js/os_en.js"></script>
+    </div>
+</footer>
+    <script src="assets/js/button.js"></script>
+</html>

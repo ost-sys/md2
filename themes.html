@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Официальный сайт владельца канала Windows Tester">
+    <link rel="shortcut icon" href="assets/image/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/light.css" media="(prefers-color-scheme: light)">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/dark.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.cdnfonts.com/css/google-sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/google-sans');
+    </style>
+    <script>  
+        setInterval(function () {
+            var now = new Date();
+            var clock = document.getElementById("clock");
+            clock.innerHTML = now.toLocaleTimeString();
+        }, 1000);
+    </script>
+    <title>Customization</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="page-name">Customization</div>
+        <div class="navbar__wrap">
+            <div class="hamb">
+                <div class="hamb__field" id="hamb">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+                </div>
+            </div>
+            <ul class="menu" id="menu">
+                <li><a href="index.html" title="Home page" class="material-symbols-sharp">home<span>​⠀Home</span></a></li>
+                <li><a href="changelog.html" title="There are innovations here!" class="material-symbols-sharp">edit_document<span>​⠀Changelog</span></a></li>
+                <li><a href="soft.html" title="Programs and more" class="material-symbols-sharp active">computer<span>​⠀Soft</span></a></li>
+                <li><a href="about.html" title="About project" class="material-symbols-sharp">account_circle<span>​⠀About project</span></a></li>
+                <li><a href="socials.html" title="My Socials" class="material-symbols-sharp">link<span>​⠀Socials</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="popup" id="popup"></div>
+    <script src="assets/js/nav.js"></script>
+    <div class="header">
+        <div class="font">
+            <h3>Wallpapers, themes and the like will be stored here!</h3>
+            <h3>You can sent your wallpaper in <a href="https://t.me/Windows_Tester" class="link">Telegram</a></h3>
+            <div class="separator"></div>
+            <div class="form-back">
+                <h3>Section "Wallpaper"</h3>
+                <a href="https://drive.google.com/file/d/1HZ7AX7H3TnoIUvtMeanCGvhd4MXwcSXs/view?usp=share_link"><button>Windows 10 Wallpeprs (RTM - 1809) (Nerok)</button></a>
+                <a href="https://drive.google.com/drive/folders/1mzgyoU5G-sblbJdgX2wCFbYTAWnAHIZ5?usp=share_link"><button>Wallpaper from my PC</button></a>
+                <a href="https://drive.google.com/file/d/1tzztWVx7D51kZ1z6Vfiz1HT8HJDXIA1H/view?usp=share_link"><button>Windows 10 Wallpeprs (1903 - 21H2)</button></a>
+            </div>
+            <div class="form-back">
+                <h3>Section "Programs for customization"</h3>
+                <h2>Ultra UX Theme Patcher</h2><h4>A program that edits system files for the correct operation of third-party themes.</h4>
+                <a href="https://mhoefs.eu/software_uxtheme.php?ref=syssel&lang=en"><button>Download from official website</button></a>
+            </div>
+            <div class="form-back">
+                <h3>Section "Music"</h3>
+                <a href="https://www.youtube.com/@NoCopyrightSounds"><button>Music by NCS</button></a>
+            </div>
+            <div class="form-back">
+                <h3>"System sounds" section</h3>
+                <a href="https://drive.google.com/file/d/1XzKQEx84ubZ4Op2C9N7Ol2q77VzabXDZ/view?usp=share_link"><button>Windows 11 Sounds</button></a>
+            </div>
+            <siv class="separator"></siv>
+        </div>
+    </div>
+</body>
+<footer style="text-align: center;">
+    <div class="font" style="padding: 0px; font-size: 16px;">
+        <script src="assets/js/year_en.js"></script><br><br>
+        Current time: <span id="clock" class="time"></span><br><br>
+        Time before my birthday: <span id="demo" class="time"></span><br><br>
+        <script src="assets/js/timer.js"></script>
+        <script src="assets/js/os_en.js"></script>
+    </div>
+</footer>
+    <script src="assets/js/button.js"></script>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Официальный сайт владельца канала Windows Tester">
+    <link rel="shortcut icon" href="assets/image/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/light.css" media="(prefers-color-scheme: light)">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/dark.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.cdnfonts.com/css/google-sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/google-sans');
+    </style>
+    <script>  
+        setInterval(function () {
+            var now = new Date();
+            var clock = document.getElementById("clock");
+            clock.innerHTML = now.toLocaleTimeString();
+        }, 1000);
+    </script>
+    <title>Changelog</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="page-name">Changelog</div>
+        <div class="navbar__wrap">
+            <div class="hamb">
+                <div class="hamb__field" id="hamb">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+                </div>
+            </div>
+            <ul class="menu" id="menu">
+                <li><a href="index.html" title="Home page" class="material-symbols-sharp">home<span>​⠀Home</span></a></li>
+                <li><a href="changelog.html" title="There are innovations here!" class="material-symbols-sharp active">edit_document<span>​⠀Changelog</span></a></li>
+                <li><a href="soft.html" title="Programs and more" class="material-symbols-sharp">computer<span>​⠀Soft</span></a></li>
+                <li><a href="about.html" title="About project" class="material-symbols-sharp">account_circle<span>​⠀About project</span></a></li>
+                <li><a href="socials.html" title="My Socials" class="material-symbols-sharp">link<span>​⠀Socials</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="popup" id="popup"></div>
+    <script src="assets/js/nav.js"></script>
+    <div class="header">
+        <div class="font">
+            <h3>The entire list of changes is stored here!</h3>
+            <center>
+                <div class="grid-apps" style="grid-template-columns: repeat(3, minmax(70px, 1fr))">
+                    <div class="form-back" style="background-color: var(--back-color-primary); color: var(--back-color-backround);">Major update</div>
+                    <div class="form-back">Default update</div>
+                    <div class="form-back" style="background-color: var(--back-color-inactive-text); color: var(--back-color-inactive-element);">Patch update</div>
+                </div>
+            </center>
+            <div class="header-in-header">
+                <h1><span class="separator"></span>2023 year!</h1>
+                <div class="grid-apps">
+                    <div class="form-back">
+                        <h2>Changelog 10.02.2023</h2>
+                        <h4>1. Initial release</h4>
+                        <h4>2. New MD2 style</h4>
+                        <a href="test.html"><button>Click me!</button></a>
+                    </div>
+                </div>
+                <span class="separator"></span>
+                <h4>That's all for now!</h4>
+            </div>  
+        </div>
+    </div>
+</body>
+<footer style="text-align: center;">
+    <div class="font" style="padding: 0px; font-size: 16px;">
+        <script src="assets/js/year_en.js"></script><br><br>
+        Current time: <span id="clock" class="time"></span><br><br>
+        Time before my birthday: <span id="demo" class="time"></span><br><br>
+        <script src="assets/js/timer.js"></script>
+        <script src="assets/js/os_en.js"></script>
+    </div>
+</footer>
+    <script src="assets/js/button.js"></script>
+</html>
